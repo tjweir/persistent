@@ -1,11 +1,7 @@
-resolver: lts-13.15
+resolver: lts-13.23
 packages:
   - ./persistent
   - ./persistent-template
-  - ./persistent-sqlite
   - ./persistent-test
-  - ./persistent-mongoDB
-  - ./persistent-mysql
   - ./persistent-postgresql
-  - ./persistent-redis
   - ./persistent-qq
